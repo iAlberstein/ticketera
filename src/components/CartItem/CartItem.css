@@ -1,0 +1,9 @@
+.cart-item {
+
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    width: 50%;
+    justify-content: space-around;
+    border-bottom: solid 1px;
+}

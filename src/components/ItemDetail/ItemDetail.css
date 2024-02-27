@@ -1,0 +1,95 @@
+.CardItem-ItemDetail .ItemImg {
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+}
+
+.CardItem-ItemDetail picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.CardItem-ItemDetail {
+    display: flex;
+    align-items: center;
+    height: 300px;
+    padding-left: 50px;
+    margin: 50px 100px 50px 100px;
+    border:solid 1px rgb(223, 214, 214);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.147);
+}
+
+.CardItem-ItemDetail .CardContent {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    padding: 50px;
+}
+
+.CardItem-ItemDetail .ItemFooter {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 250px;
+    width: 400px;
+    border: solid 1px rgb(223, 214, 214);
+    border-radius: 10px;
+    margin-right: 50px;
+}
+
+.CardItem-ItemDetail .ItemFooter a {
+    width: 100px;
+    background-color: rgb(89, 112, 100);
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    color: aliceblue;
+    padding: 8px;
+    text-decoration: none;
+}
+
+.CardItem-ItemDetail .Counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.CardItem-ItemDetail .Counter .Controls {
+    display: flex;
+    width: 100px;
+    height: 50px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.CardItem-ItemDetail .Counter .Controls .Button {
+    height: 30px;
+    width: 30px;
+    font-size: 20px;
+    color: aliceblue;
+    background-color: rgb(89, 112, 100);
+    border: none;
+    border-radius: 5px;
+}
+
+.CardItem-ItemDetail .Counter .Number {
+
+    width: 30px;
+    height: 20px;
+    text-align: center;
+}
+
+.CardItem-ItemDetail .ButtonBuy {
+    width: 100px;
+    background-color: rgb(89, 112, 100);
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    color: aliceblue;
+    padding: 8px;
+}

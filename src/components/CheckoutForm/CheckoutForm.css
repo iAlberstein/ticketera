@@ -1,0 +1,40 @@
+.Container {
+
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Container .Form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: green;
+    width: 600px;
+    height: 350px;
+    border:solid 1px rgb(223, 214, 214);
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.147);
+}
+
+.Container .Form .Input {
+    margin-bottom: 30px;
+    width: 400px;
+    height: 40px;
+    text-align: center;
+    border:solid 1px rgb(223, 214, 214);
+    border-radius: 10px;
+}
+
+.Container .Button {
+    height: 50px;
+    width: 400px;
+    font-size: 20px;
+    font-weight: 700;
+    color: aliceblue;
+    background-color: rgb(89, 112, 100);
+    border: none;
+    border-radius: 5px;
+}

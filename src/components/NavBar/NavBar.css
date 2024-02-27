@@ -1,0 +1,44 @@
+.NavBar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #ccc; /* Borde inferior */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.147);
+}
+
+.NavBar a {
+    text-decoration: none; 
+    color:rgb(0, 0, 0);
+    transition: transform 0.6s ease;
+ 
+}
+
+.NavBar a:hover {
+    transform: scale(1.1); 
+    font-weight: 600;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.147);
+}
+
+
+.NavBar .ActiveOption {
+    text-decoration: underline;
+    text-decoration-skip-ink: none; 
+    text-decoration-thickness: 5px; 
+    text-underline-offset: 8px;
+    font-weight: 700;
+}
+
+.NavBar .Categories {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.MarcaTicketera {
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+
+
