@@ -10,3 +10,7 @@ Ticketera orientada a la venta de entradas de espectáculos.
 ## Inicializar app
 * npm install 
 * npm run start
+
+## Puerto
+
+* http://localhost:3000/
